@@ -16,7 +16,7 @@ A configuration example for:
 - jwt token inside a cookie named <code>token</code>
 - jwt full token is inserted into the <code>authorization</code> header
 - jwt body is inserted into <code>x-jwt-body</code> header
-- jwt body fields <code> field1 </code> and <code>field2</code> are mapped respectvly to <code>x-field1</code> and <code>x-field2</code> headers
+- jwt body fields <code> field1 </code> and <code>field2</code> are mapped respectively to <code>x-field1</code> and <code>x-field2</code> headers
 - the headers <code>x-field1</code> and <code>x-field2</code> are cleared at the execution beginning. This property is useful to avoid data tampering to sensitive data.
 
 ```yaml
