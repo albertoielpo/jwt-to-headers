@@ -1,6 +1,6 @@
 local plugin = {
   PRIORITY = 950, --1450 is the jwt execution priority, 1000 is the kong-oidc plugin. Lower priority == later execution
-  VERSION = "0.0.1"
+  VERSION = "1.0.0"
 }
 
 -- local base64 decode implementation
